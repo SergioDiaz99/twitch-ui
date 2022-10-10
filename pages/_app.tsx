@@ -2,7 +2,6 @@ import "../styles/globals.css";
 import Layout from "../components/Layout/Layout";
 
 import { SessionProvider } from "next-auth/react"
-
 interface Props {
   Component?: any;
   pageProps?: any;
