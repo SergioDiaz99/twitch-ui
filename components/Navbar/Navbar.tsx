@@ -24,8 +24,6 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  console.log("secret: ", process.env.NEXT_PUBLIC_SECRET)
-
   return (
     <div className="fixed z-[100] h-14 w-full flex flex-nowrap items-center p-4 bg-primary mb-[2px]">
       <div className="flex grow items-center justify-start">
