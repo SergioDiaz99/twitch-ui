@@ -27,7 +27,6 @@ const Navbar = () => {
   return (
     <div className="fixed z-[100] h-14 w-full flex flex-nowrap items-center p-4 bg-primary mb-[2px]">
       <div className="flex grow items-center justify-start">
-      asdsad
         <Link href="/">
           <a className="flex">
             {/*eslint-disable-next-line @next/next/no-img-element*/}
